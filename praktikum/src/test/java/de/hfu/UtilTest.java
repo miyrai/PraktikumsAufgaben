@@ -2,11 +2,19 @@ package de.hfu;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import junit.framework.AssertionFailedError;
 
 public class UtilTest {
+	
+	private Queue queue;
+
+	@Before
+	public void init() {
+		queue = new Queue(3);
+	}
 
 	@Test
 	public void istErstesHalbjahrTestFirstHalfYear() {
