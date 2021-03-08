@@ -3,7 +3,7 @@ package de.hfu;
 import java.util.Scanner;
 
 /**
-* formats input into upperCase
+* formats input into
 */
 public class App 
 {
