@@ -1,5 +1,5 @@
 # University-Testing
-Project for an course for unit testing
+Project for a course about unit testing
 
 Using:
 - Java
