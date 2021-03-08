@@ -16,10 +16,10 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>4.13.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- für das Praktikum "Integrationstest" -->
+		<!-- fÃ¼r das Praktikum "Integrationstest" -->
 		<dependency>
 			<groupId>org.easymock</groupId>
 			<artifactId>easymock</artifactId>
@@ -50,7 +50,7 @@
 	</reporting>
 	<build>
 		<plugins>
-			<!-- für das Praktikum "Build Management" -->
+			<!-- fÃ¼r das Praktikum "Build Management" -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -63,7 +63,7 @@
 					</archive>
 				</configuration>
 			</plugin>
-			<!-- für das Praktikum "Integrationstest" -->
+			<!-- fÃ¼r das Praktikum "Integrationstest" -->
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
